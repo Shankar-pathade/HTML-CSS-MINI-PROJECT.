@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,200&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+</head>
+<body>
+    
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>Pune University</h1>
+             <p>Making website is one of the easiest thing.You just need to learn HTML, CSS<br>& JAVASCRIPT and you are to go.</p>
+             <a href="" class="hero-btn">Visit Us To Know More</a>
+        </div>
+    </section>
+
+
+
+
+    <section class="course">
+        <h1>Course we offer</h1>
+        <p>Their are many cources offers a university lke 12th class, degrees, master degrees.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermidiate</h3>
+                <p>Their are many courses after the 12th, in the science technology stream like 'Interdisciplinary School Of Science','BSC In Computer Science', 'BTECH' and other.</p>
+            </div>
+            <div class="course-col">
+                <h3>Graduation</h3>
+                <p>Savitribai phule university offers under graduate and post graduation degrees in more than 52 departments and institutes.</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Savitribai phule university offers under graduate and post graduation degrees in more than 52 departments and institutes.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="tcs.jpg">
+                <div class="layer">
+                    <h3>PUNE</h3>
+                </div>
+            </div>
+
+            <div class="campus-col">
+                <img src="capgemini.jpg">
+                <div class="layer">
+                    <h3>MUMBAI</h3>
+                </div>
+            </div>
+
+            <div class="campus-col">
+                <img src="ibm.jpg">
+                <div class="layer">
+                    <h3>BANGALORE</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="facilities">
+        <h1>Our facilities</h1>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="library.jpg">
+                <h3>World Class Library</h3>
+            </div>
+
+            <div class="facilities-col">
+                <img src="basketball.jpg">
+                <h3>Largest Playground</h3>
+            </div>
+
+            <div class="facilities-col">
+                <img src="cafetarea.jpg">
+                <h3>Tasty and healthy</h3>
+            </div>
+        </div>
+    </section>
+    
+    <section class="testimonials">
+        <h3>What Our Student Says</h3>
+
+        <div class="row">
+            <div class="testimonials-col">
+                <img src="userr.jpg">
+                <div>
+                    <p>
+                        Savitribai phule university is a is a ranked #1254 in best global universities.
+                        <h3>Cristlin brinkley</h3>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </p>
+                </div>
+                
+            </div>
+
+            <div class="testimonials-col">
+                <img src="user.jpg">
+                <div>
+                    <p>
+                        It is home to a lot of reputed universities and institudes with a lot of histories and quality placements.
+                        <h3>Michlin</h3>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <h1>Enroll For Our Various Online Courses<br>Anywhere From The State</h1>
+        <a href="" class="hero-btn">CONTACT US</a>
+    </section>
+
+    <section class="footer">
+        <h4>ABOUT US</h4>
+        <p>Pune university is one of the public suitable university in a maharashtra and india also.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+    </section>
+
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0"
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px"
+        }
+
+    </script>
+</body>
+</html>
